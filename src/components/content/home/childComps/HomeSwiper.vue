@@ -56,7 +56,7 @@ export default {
 <style scoped>
   .header-swiper{
     width:100%;
-    height: 100px;
+    height: 160px;
   }
 
   .header-swiper img{
