@@ -21,6 +21,7 @@ export default {
   .home-location{
     display: flex;
     position: relative;
+    border-bottom: 10px solid #f5f5f5 ;
   }
   .home-location-item{
     flex: 1;
