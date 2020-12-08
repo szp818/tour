@@ -4,7 +4,7 @@
       <swiper-slide v-for="item in page" :key="item.id">
         <div class="home-icons-item" v-for="page in item">
           <img :src="page.url" alt="">
-          <p>{{page.title}}</p> 
+          <p class="textOverflow">{{page.title}}</p> 
         </div>
       </swiper-slide>
     </swiper>
@@ -89,6 +89,8 @@ export default {
 </script>
 
 <style scoped>
+@import '~assets/css/common.css';
+
   .home-icons-item{
     width: 25%;
     padding-bottom: 25%;

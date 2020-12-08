@@ -5,6 +5,7 @@
     <home-icons></home-icons>
     <home-location></home-location>
     <home-activity></home-activity>
+    <home-hot></home-hot>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import HomeHeader from './childComps/HomeHeader'
 import HomeIcons  from './childComps/HomeIcons'
 import HomeLocation from './childComps/HomeLocation'
 import HomeActivity from './childComps/HomeActivity'
+import HomeHot from './childComps/HomeHot'
 
 export default {
     name:'Home',
@@ -22,7 +24,8 @@ export default {
       HomeSwiper,
       HomeIcons,
       HomeLocation,
-      HomeActivity
+      HomeActivity,
+      HomeHot
     }
 }
 </script>
