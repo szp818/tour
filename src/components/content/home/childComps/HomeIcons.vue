@@ -76,7 +76,7 @@ export default {
     page(){
       let pages = [];
       this.icons.forEach((item,index)=>{
-        console.log(index);
+        // console.log(index);
         let idx = Math.floor(index/8);
         if(!pages[idx])  
         pages[idx] = [];

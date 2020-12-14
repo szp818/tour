@@ -6,6 +6,7 @@
     <home-location></home-location>
     <home-activity></home-activity>
     <home-hot></home-hot>
+    <home-like></home-like>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import HomeIcons  from './childComps/HomeIcons'
 import HomeLocation from './childComps/HomeLocation'
 import HomeActivity from './childComps/HomeActivity'
 import HomeHot from './childComps/HomeHot'
+import HomeLike from './childComps/HomeLike'
 
 export default {
     name:'Home',
@@ -25,7 +27,8 @@ export default {
       HomeIcons,
       HomeLocation,
       HomeActivity,
-      HomeHot
+      HomeHot,
+      HomeLike
     }
 }
 </script>

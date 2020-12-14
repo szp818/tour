@@ -95,6 +95,7 @@ export default {
   .home-hot{
     margin-top: 5px;
     font-size: 14px;
+    border-bottom: 10px solid #f5f5f5;
   }
   .home-hot-top{
     padding: 10px;
